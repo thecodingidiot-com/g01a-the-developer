@@ -13,8 +13,8 @@ When you reach the final page, run the tester:
 
 ```bash
 git clone https://github.com/thecodingidiot-com/g01a-the-developer.git
-cp g01a-the-developer/test.sh ~/g01-practice/
-cd ~/g01-practice
+cp g01a-the-developer/test.sh ~/g01a-practice/
+cd ~/g01a-practice
 bash test.sh
 ```
 
@@ -39,8 +39,8 @@ them as a prize-ladder quiz. The full project brief is in the chapter's
 
 ```bash
 # Start from your c03 working directory (contains libtci.a and libtciutil.a)
-cp -r ~/c03-practice ~/g01-practice
-cd ~/g01-practice
+cp -r ~/c03-practice ~/g01a-practice
+cd ~/g01a-practice
 # Add game.h, main.c, load.c, display.c, game.c, and questions.txt
 make re
 ./game questions.txt
