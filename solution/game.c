@@ -8,9 +8,7 @@ static char read_input(void)
     if (read(0, &c, 1) <= 0)
         return ('\0');
     read(0, &flush, 1);     /* consume the newline that follows the letter */
-    if (c >= 'a' && c <= 'z')
-        c -= 32;            /* 'a'=97, 'A'=65: difference is 32 */
-    return (c);
+    return (tci_toupper(c));
 }
 
 static void handle_lifeline(question_t *q, int *flags, int hidden[4],
