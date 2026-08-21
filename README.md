@@ -71,4 +71,4 @@ always correct, so results are deterministic regardless of shuffle order.
 
 ## License
 
-[GNU General Public License v2.0](LICENSE)
+[MIT License](LICENSE)
